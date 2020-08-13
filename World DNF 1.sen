@@ -1,0 +1,4 @@
+7.2.4.28445macs:Mac OS X10.14SntFC1569534450960D1569534542887S91612~[~((Tet(a) & ~Large(a)) | (Cube(a) & ~Medium(a))) & ~(Dodec(b) & (Large(b) | Tet(b)))](Tet(a) & ~Large(a)) | 
+(Cube(a) & ~Medium(a)) | 
+(Dodec(b) & Large(b)) | 
+(Dodec(b) & Tet(b))s=40002;
