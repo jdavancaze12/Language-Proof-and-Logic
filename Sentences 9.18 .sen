@@ -1,0 +1,1 @@
+7.2.4.28445macs:Mac OS X10.14SntFC1572419639634D1572419685004S95785@x ~(Cube(x) & Medium(x))@x ~(FrontOf(x, b))@x (Cube(x) $ (FrontOf(x, e) | BackOf(x, e)))@x (Cube(x) $ ~Between(x, a, c))@x (SameCol(x, a) | SameCol(x, b) | SameCol(x, c))s=39817;

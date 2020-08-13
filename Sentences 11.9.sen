@@ -1,0 +1,10 @@
+7.2.4.28445macs:Mac OS X10.14.6SntFC1574398474310D1574398709819D1574399446712D1574399494781D1574399494971D1574399495162D1574399495600D1574399610683D1574399610954D1574399611091D1574399611304D1574399611775D1574399611867D1574399611961D1574399612051D1574399612141D1574399612231D1574399612325D1574399612417D1574399612552D1574399613061D1574399613172D1574399613276D1574399613401D1574399613476D1574399613684D1574399614202D1574399614304D1574399614393D1574399614486D1574399614728D1574399615115S7097125/x @y ~Smaller(x, y)
+; Could this ever be true?@x (Dodec(x) $ /y Smaller(x, y))/x ~(Dodec(x) & @y Smaller(x, y))/y @x (Dodec(x) $ Smaller(x, y))
+; Try to say this in English.  It's hard to say it 
+; clearly and unambiguously./y @x (Dodec(x) $ ~Smaller(y, x))/y @x (Dodec(x) $ ~Smaller(x, y))@x ((Cube(x) & Medium(x)) $ ~/y BackOf(y, x))@x ((Cube(x) & Medium(x)) $ /y ~BackOf(y, x))
+; Do you understand the difference between 7 and 
+; 8?  They don't mean the same thing.@x ((Cube(x) & ~Large(x)) $ ~/y BackOf(y, x))@x ((Cube(x) & Large(x)) $ /y ~BackOf(y, x))/x (Tet(x) & @y (Cube(y) $ BackOf(y, x)))/x (Tet(x) & @y (BackOf(y, x) $ Cube(y)))/x (Cube(x) & @y (Dodec(y) $ Smaller(y, x)))/x (~Cube(x) & @y (Smaller(y, x) $ Dodec(y)))@x ((Cube(x) & /y LeftOf(x, y)) $ Large(x))@x ((Tet(x) & ~/y FrontOf(x, y)) $ Small(x))@x (~/y BackOf(y, x) $ Cube(x))@x (~/y ~FrontOf(y, x) $ Tet(x))@x (Tet(x) $ /y /z Between(x, y, z))/y @x (Tet(x) $ /z Between(x, y, z))
+; How does this differ from the one above?  They 
+; mean very different things./z @x (Tet(x) $ /y Between(x, y, z))/y /z @x (Tet(x) $ ~Between(x, y, z))
+; Do you see how this can be false, even though 20 
+; and 21 are true?/y @x (Small(x) $ ~SameRow(x, y))@x (Small(x) $ /y (x # y & SameRow(x, y)))@x ( Small(x) $ /y (x # y & ~SameCol(x, y)))s=283567;
